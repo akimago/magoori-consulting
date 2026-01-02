@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Works() {
   return (
     <section className="section works" id="works">
@@ -13,7 +15,15 @@ export default function Works() {
         <div className="works-grid">
           <article className="work-card">
             <div className="work-image">
-              <div className="work-image-inner"></div>
+              <div className="work-image-inner">
+                <Image
+                  src="/images/works/CaseStudy-01.png"
+                  alt="製造業A社：生成AIによる議事録作成の自動化"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 450px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             <div className="work-category">AI Integration</div>
             <h3>製造業A社：生成AIによる議事録作成の自動化</h3>
@@ -22,7 +32,15 @@ export default function Works() {
 
           <article className="work-card">
             <div className="work-image">
-              <div className="work-image-inner"></div>
+              <div className="work-image-inner">
+                <Image
+                  src="/images/works/CaseStudy-02.png"
+                  alt="卸売業B社：受発注業務の自動化"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 450px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             <div className="work-category">RPA Implementation</div>
             <h3>卸売業B社：受発注業務の自動化</h3>
@@ -31,7 +49,15 @@ export default function Works() {
 
           <article className="work-card">
             <div className="work-image">
-              <div className="work-image-inner"></div>
+              <div className="work-image-inner">
+                <Image
+                  src="/images/works/CaseStudy-03.png"
+                  alt="小売業C社：IT導入補助金を活用したPOSシステム刷新"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 450px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             <div className="work-category">Subsidy Support</div>
             <h3>小売業C社：IT導入補助金を活用したPOSシステム刷新</h3>
@@ -40,7 +66,15 @@ export default function Works() {
 
           <article className="work-card">
             <div className="work-image">
-              <div className="work-image-inner"></div>
+              <div className="work-image-inner">
+                <Image
+                  src="/images/works/CaseStudy-04.png"
+                  alt="サービス業D社：ペーパーレス化とクラウド移行"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 450px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             <div className="work-category">DX Promotion</div>
             <h3>サービス業D社：ペーパーレス化とクラウド移行</h3>

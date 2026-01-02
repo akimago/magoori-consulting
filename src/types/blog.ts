@@ -15,6 +15,7 @@ export type Blog = {
     id: string;
     name: string;
   };
+  excerpt?: string;
 };
 
 export type BlogListResponse = {

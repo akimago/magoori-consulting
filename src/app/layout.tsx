@@ -7,6 +7,7 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["300", "400", "500"],
   variable: "--font-sans",
   display: "swap",
+  adjustFontFallback: true,
 });
 
 const shipporiMincho = Shippori_Mincho({

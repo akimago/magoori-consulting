@@ -99,10 +99,11 @@ img {
   display: block;
   font-family: var(--font-sans);
   font-size: 9px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.08em;
+  line-height: 1.4;
   opacity: 0.6;
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .nav {
@@ -113,9 +114,10 @@ img {
 
 .nav-link {
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--color-white);
   letter-spacing: 0.1em;
+  line-height: 2;
   opacity: 0.8;
   transition: opacity 0.4s var(--ease-out-quart);
   position: relative;
@@ -288,8 +290,9 @@ img {
 
 .scroll-text {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.2em;
+  line-height: 2;
   color: var(--color-text-muted);
   writing-mode: vertical-rl;
 }
@@ -338,8 +341,9 @@ img {
   align-items: center;
   gap: 16px;
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.15em;
+  line-height: 2;
   color: var(--color-accent);
   margin-bottom: 24px;
 }
@@ -364,8 +368,9 @@ img {
   display: block;
   font-family: var(--font-sans);
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.2em;
+  line-height: 1.8;
   color: var(--color-text-muted);
   margin-top: 12px;
 }
@@ -414,11 +419,11 @@ img {
 }
 
 .about-text p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 2.4;
-  color: var(--color-text-secondary);
-  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.2;
+  color: var(--color-text);
+  margin-bottom: 24px;
 }
 
 .credentials {
@@ -432,8 +437,9 @@ img {
 
 .credential {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.05em;
+  line-height: 2;
   color: var(--color-text-secondary);
   padding: 10px 20px;
   border: 1px solid var(--color-line);
@@ -457,10 +463,10 @@ img {
 }
 
 .thoughts-intro p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 2.4;
-  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.2;
+  color: var(--color-text);
 }
 
 .thoughts-list {
@@ -500,10 +506,10 @@ img {
 }
 
 .thought-content p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 2.2;
-  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.1;
+  color: var(--color-text);
   max-width: 560px;
 }
 
@@ -549,10 +555,10 @@ img {
 }
 
 .service-number {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.15em;
-  color: var(--color-text-muted);
+  color: var(--color-text-secondary);
   margin-bottom: 48px;
   padding-left: 40px;
 }
@@ -630,10 +636,10 @@ img {
 }
 
 .flow-item p {
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
   line-height: 2;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .flow-arrow {
@@ -700,6 +706,7 @@ img {
 .work-image-inner {
   width: 100%;
   height: 100%;
+  position: relative;
   transition: transform 0.8s var(--ease-out-expo);
 }
 
@@ -709,7 +716,7 @@ img {
 
 .work-category {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.15em;
   color: var(--color-accent);
   margin-bottom: 8px;
@@ -718,7 +725,7 @@ img {
 
 .work-card h3 {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--color-text);
@@ -765,7 +772,7 @@ img {
 
 .blog-date {
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.1em;
   color: var(--color-text-muted);
   padding-top: 2px;
@@ -773,7 +780,7 @@ img {
 
 .blog-item h3 {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.9;
   letter-spacing: 0.02em;
   color: var(--color-text);
@@ -816,7 +823,7 @@ img {
   background: var(--color-primary);
   color: var(--color-white);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.1em;
   transition: all 0.5s var(--ease-out-expo);
   position: relative;
@@ -850,7 +857,7 @@ img {
   padding: 16px 32px;
   border: 1px solid var(--color-line);
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.1em;
   color: var(--color-text);
   transition: all 0.4s var(--ease-out-quart);
@@ -900,16 +907,16 @@ img {
 }
 
 .footer-desc {
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 2.2;
-  color: rgba(255, 255, 255, 0.5);
-  max-width: 280px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 320px;
 }
 
 .footer-nav h4 {
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 0.15em;
   color: rgba(255, 255, 255, 0.4);
   margin-bottom: 24px;
@@ -1013,7 +1020,7 @@ img {
 .form-group label {
   display: block;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.05em;
   color: var(--color-text);
   margin-bottom: 12px;
@@ -1078,7 +1085,7 @@ img {
   gap: 8px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--color-text);
 }
 
@@ -1096,7 +1103,7 @@ img {
   color: var(--color-white);
   font-family: var(--font-sans);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.1em;
   border: none;
   cursor: pointer;

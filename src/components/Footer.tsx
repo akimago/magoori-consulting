@@ -29,8 +29,8 @@ export default function Footer() {
           <nav className="footer-nav">
             <h4>Follow</h4>
             <ul>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">X (Twitter)</a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">note</a></li>
+              <li><a href="https://x.com/akimago" target="_blank" rel="noopener noreferrer">X (Twitter)</a></li>
+              <li><a href="https://note.com/usa2023" target="_blank" rel="noopener noreferrer">note</a></li>
             </ul>
           </nav>
         </div>
