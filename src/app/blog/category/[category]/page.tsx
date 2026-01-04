@@ -9,18 +9,21 @@ type Props = {
   params: Promise<{ category: string }>;
 };
 
-const categoryConfig: Record<string, { title: string; description: string }> = {
+const categoryConfig: Record<string, { title: string; description: string; microCmsId: string }> = {
   case: {
     title: "支援実績",
     description: "中小企業のデジタル化支援・DX推進の実績をご紹介します",
+    microCmsId: "cyqaht3lxj2o",
   },
   news: {
     title: "お知らせ",
     description: "馬郡コンサルティングからのお知らせ",
+    microCmsId: "news",
   },
   column: {
     title: "コラム",
     description: "AI活用・DX推進に関するコラム",
+    microCmsId: "column",
   },
 };
 
@@ -50,7 +53,7 @@ export default async function CategoryBlogPage({ params }: Props) {
     notFound();
   }
 
-  const { contents: posts } = await getBlogsByCategory(category, 20);
+  const { contents: posts } = await getBlogsByCategory(config.microCmsId, 20);
 
   return (
     <>
