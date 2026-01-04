@@ -679,8 +679,19 @@ img {
   margin-top: 56px;
 }
 
+.work-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .work-card {
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.work-card-link:hover .work-card {
+  transform: translateY(-4px);
 }
 
 .work-image {
@@ -710,7 +721,7 @@ img {
   transition: transform 0.8s var(--ease-out-expo);
 }
 
-.work-card:hover .work-image-inner {
+.work-card-link:hover .work-image-inner {
   transform: scale(1.03);
 }
 
