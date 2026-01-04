@@ -40,3 +40,15 @@ export const getAllBlogIds = async (): Promise<string[]> => {
   });
   return response.contents.map((blog) => blog.id);
 };
+
+// カテゴリ別ブログ一覧を取得
+export const getBlogsByCategory = async (categoryId: string, limit: number = 20): Promise<BlogListResponse> => {
+  const response = await client.get<BlogListResponse>({
+    endpoint: 'blogs',
+    queries: {
+      limit,
+      filters: `category[equals]${categoryId}`,
+    },
+  });
+  return response;
+};
