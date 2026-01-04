@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const works = [
   {
-    id: "7cekoid3fd",
+    id: "4287zarb6d",
     image: "/images/works/CaseStudy-01.png",
     alt: "製造業A社：生成AIによる議事録作成の自動化",
     category: "AI Integration",
@@ -11,7 +11,7 @@ const works = [
     result: "会議時間の30%削減を実現",
   },
   {
-    id: "zv_2c_zlkd",
+    id: "e5h18mnuqqae",
     image: "/images/works/CaseStudy-02.png",
     alt: "卸売業B社：受発注業務の自動化",
     category: "RPA Implementation",
@@ -19,7 +19,7 @@ const works = [
     result: "月40時間の業務削減に成功",
   },
   {
-    id: "e5h18mnuqqae",
+    id: "zv_2c_zlkd",
     image: "/images/works/CaseStudy-03.png",
     alt: "小売業C社：IT導入補助金を活用したPOSシステム刷新",
     category: "Subsidy Support",
@@ -27,7 +27,7 @@ const works = [
     result: "補助率2/3での導入を実現",
   },
   {
-    id: "4287zarb6d",
+    id: "7cekoid3fd",
     image: "/images/works/CaseStudy-04.png",
     alt: "サービス業D社：ペーパーレス化とクラウド移行",
     category: "DX Promotion",
