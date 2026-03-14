@@ -77,11 +77,7 @@ export default async function BlogDetailPage({ params }: Props) {
             )}
 
             <div
-              style={{
-                fontSize: "15px",
-                lineHeight: "2.2",
-                color: "var(--color-text)",
-              }}
+              className="blog-content"
               dangerouslySetInnerHTML={{ __html: blog.content }}
             />
           </article>
